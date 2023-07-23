@@ -9,7 +9,7 @@ import codequest.utils.FileUtils;
 public class Question1 implements QuestionInterface {
 
 	@Override
-	public void run(String fileName) throws IOException {
+	public void run(String fileName) throws IOException  {
 		BufferedReader br = FileUtils.readFile("test.txt");
 		System.out.println(br.readLine());		
 	}
