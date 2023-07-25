@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {		
 		Question1 q1 = new Question1();
-		q1.run("test.txt");
+		q1.run("q1_testcase.txt");
 	}
 
 }
