@@ -7,6 +7,7 @@ import codequest.inf.QuestionInterface;
 import codequest.utils.FileUtils;
 
 /*
+Algorithm : 구간 합 
 백준 11659번
 첫째 줄에 수의 개수 N과 합을 구해야 하는 횟수 M이 주어진다.
 둘째 줄에는 N개의 수가 주어진다. 수는 1,000보다 작거나 같은 자연수이다. 
