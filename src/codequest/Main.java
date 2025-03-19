@@ -1,18 +1,16 @@
 package codequest;
 
-import java.util.*;
 import java.io.*;
 
-import codequest.*;
-import codequest.question.Question8;
+import codequest.question.*;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {		
 		
 		// Coding Test
-		Question8 q8 = new Question8();
-		q8.run("q8_testcase.txt");
+		Question9 q = new Question9();
+		q.run("q9_testcase.txt");
 		
 		// -- Algorithm
 		// Permutation1 p1 = new Permutation1();
@@ -23,7 +21,7 @@ public class Main {
 		// dfsTest.run();
 		
 		
-	    System.out.println(Integer.compare(1, 2));
+	    // System.out.println(Integer.compare(1, 2));
 	}
 
 }
